@@ -15,7 +15,8 @@ const routes: Routes = [
   {path: 'booking', component: BookingComponent},
   {path: 'events', component: EventsComponent},
   {path: 'gallery', component: GalleryComponent},
-  {path: 'contacts', component: ContactsComponent}
+  {path: 'contacts', component: ContactsComponent},
+  {path: 'main-page', component: MainPageComponent}
 ];
 
 @NgModule({

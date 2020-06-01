@@ -1,6 +1,49 @@
 @import "../../assets/colors"
-svg
-  width: 150px
 
 .web-header
   background-color: $header-color
+  padding: 1.5% 15%
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+
+svg
+  width: 180px
+  fill: $logo-footer-color
+
+svg:hover
+  cursor: pointer
+  fill: $header-hover-color
+
+svg:focus
+  cursor: default
+  fill: $logo-footer-color
+  outline: 0
+
+.nav
+  width: 75%
+
+ul
+  list-style: none
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  border: none
+
+li
+  color: $logo-footer-color
+  margin-left: 2%
+  font-size: 1.6vw
+  font-family: 'chaletparisnineteeneighty', SansSerif
+
+li
+
+li:hover
+  color: $header-hover-color
+  cursor: pointer
+
+li:focus
+  border-bottom: 1px solid $logo-footer-color
+  color: $logo-footer-color
+  cursor: default
+  outline: 0
