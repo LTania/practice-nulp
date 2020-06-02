@@ -1,0 +1,63 @@
+.menu
+  width: 80%
+  font-family: 'chaletparisnineteeneighty', sans-serif
+  text-align: center
+  margin: 0 auto
+
+.container
+  width: 100%
+  display: flex
+  position: relative
+
+.container:nth-of-type(odd)
+  flex-direction: row
+
+.container:nth-of-type(even)
+  flex-direction: row-reverse
+
+.container:last-of-type
+  margin-bottom: 50px
+
+.description
+  width: 50%
+  display: flex
+  flex-direction: row
+  position: relative
+
+.description h1
+  font-weight: normal
+
+.photo
+  width: 50%
+  height: auto
+  position: relative
+
+.photo img
+  width: 100%
+  display: block
+  position: relative
+  object-fit: cover
+
+.photo.small img
+  height: 390px
+  object-position: 0 65%
+
+.photo.middle img
+  height: 530px
+  object-position: 0 45%
+
+.text
+  width: 100%
+  text-align: center
+  margin: 30px 10% 0 10%
+
+.text h1
+  font-size: 1.5em
+  margin: 0
+
+.text .text-2
+  font-size: 1em
+  margin-top: 20px
+
+.text .text-3
+  margin: 0
