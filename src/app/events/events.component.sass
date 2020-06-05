@@ -1,0 +1,71 @@
+@import "../../assets/colors"
+
+.container
+  margin: 50px 10% 0 10%
+  overflow: hidden
+
+.photo-container
+  width: 100%
+  height: 400px
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  padding-bottom: 50px
+
+#ph1
+  background-image: url("../../assets/images/tonya_matvienko.jpg")
+  background-position: 95% top
+#ph2
+  background-image: url("../../assets/images/43555011.jpg")
+#ph3
+  background-image: url("../../assets/images/Dakh-Daughters-Band2.jpg")
+#ph4
+  background-image: url("../../assets/images/viveene.jpg")
+#ph5
+  background-image: url("../../assets/images/dahabraha.jpg")
+  background-position: top
+#ph6
+  background-image: url("../../assets/images/girl.jpg")
+#ph7
+  background-image: url("../../assets/images/TNMK.jpg")
+#ph8
+  background-image: url("../../assets/images/102715.jpg")
+  background-position: 33%
+#ph9
+  background-image: url("../../assets/images/orl-ava.jpg")
+
+.image
+  width: 45%
+  height: 100%
+  border-radius: 40px
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  display: flex
+  flex-direction: column
+  justify-content: flex-end
+  z-index: 0
+
+.first
+  width: 25%
+
+.hidden-text
+  display: none
+  font-size: 1.2rem
+  color: $text-color-on-image
+  background-color: $text-background-on-image
+  margin-bottom: 35px
+  padding: 10px
+  text-align: center
+
+
+.image:hover
+  width: 40%
+  height: 110%
+  z-index: 1
+  p
+    display: inline-block
+  transition-duration: 0.4s
+#ph2:hover
+  width: 30%
+
