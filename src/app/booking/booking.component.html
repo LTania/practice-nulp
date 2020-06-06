@@ -1,1 +1,26 @@
-<p>booking works!</p>
+<div class="booking-container">
+  <div class = "info">
+    <p id="firstP">Бронювання столика</p>
+    <p>Заповніть форму для бронювання</p>
+    <input type="text" placeholder="Прізвище">
+    <input type="text" placeholder="Ім'я">
+    <input type="number" placeholder="Кількіcть місць">
+    <input type="datetime-local" [value]="date" [min]="date" [max]="maxDate" placeholder="Дата">
+    <input type="email" placeholder="Електронна пошта">
+    <input type="tel" placeholder="Номер телефону">
+    <input type="text" placeholder="Побажання">
+    <div class="left-btn">
+      <button (click)="openModal(success)">Надіслати</button>
+    </div>
+  </div>
+  <div class = "image-restourant">
+    <img src="../../assets/images/Image.png" alt="">
+  </div>
+</div>
+
+<ng-template #success>
+  <div class="modal-body text-center">
+    <p>Замовлення на бронювання стола надіслано. Очікуйте на дзвінок із підтвердженням бронювання.</p>
+    <button type="button"  (click)="confirm()" >Ок</button>
+  </div>
+</ng-template>
