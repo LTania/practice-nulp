@@ -12,6 +12,12 @@ import { BookingComponent } from './booking/booking.component';
 import { EventsComponent } from './events/events.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactsComponent } from './contacts/contacts.component';
+import {UserService} from './shared/user.service';
+import {FormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {ToastrModule} from 'ngx-toastr';
+
 
 @NgModule({
   declarations: [
@@ -28,9 +34,13 @@ import { ContactsComponent } from './contacts/contacts.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ModalModule.forRoot()
+    ModalModule.forRoot(),
+    FormsModule,
+    HttpClientModule,
+    BrowserAnimationsModule,
+    ToastrModule.forRoot()
   ],
-  providers: [],
+  providers: [UserService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -32,15 +32,16 @@
             першими дізнаватись про події, які відбуватимуться у нашому кафе, а також ви отримуватиме унікальні пропозиції
             щодо акцій та знижок, які діють для наших рідних</p>
           <p class="form-p2">*заповнивши цю форму ви даєте згоду на використання ваших особистих даних</p>
-          <form action="">
+          <form #form="ngForm" autocomplete="off" (submit)="onSubmit(form)">
             <div class="input-cont">
-            <input type="text" placeholder="Прізвище">
-            <input type="text" placeholder="Ім'я">
-            <input type="text" placeholder="Номер телефону">
-            <input type="text" placeholder="error@gmail.com">
+              <input type="hidden" name="userId" [value] = "service.formData.userId">
+            <input name="LastName" #LastName=ngModel [(ngModel)]="service.formData.LastName" type="text" placeholder="Прізвище" required>
+            <input name="FirstName" #FirstName=ngModel [(ngModel)]="service.formData.FirstName" type="text" placeholder="Ім'я" required>
+            <input name="PhoneNumber" #PhoneNumber=ngModel [(ngModel)]="service.formData.PhoneNumber" type="text" placeholder="Номер телефону" required>
+            <input name="UserEmail" #UserEmail=ngModel [(ngModel)]="service.formData.UserEmail" type="text" placeholder="error@gmail.com" required>
             </div>
             <div class = "icons">
-            <button>Приєднатись</button>
+            <button type="submit" >Приєднатись</button>
             </div>
           </form>
         </div>
