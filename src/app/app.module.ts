@@ -17,6 +17,7 @@ import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {ToastrModule} from 'ngx-toastr';
+import { AdminPageComponent } from './admin-page/admin-page.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import {ToastrModule} from 'ngx-toastr';
     BookingComponent,
     EventsComponent,
     GalleryComponent,
-    ContactsComponent
+    ContactsComponent,
+    AdminPageComponent
   ],
   imports: [
     BrowserModule,
