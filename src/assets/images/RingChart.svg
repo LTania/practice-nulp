@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="262.009" height="285" viewBox="0 0 262.009 285">
+  <g id="Ring_Chart" data-name="Ring Chart" transform="translate(-548 -717)">
+    <g id="Tacos" transform="translate(602 740)">
+      <path id="Path_56" data-name="Path 56" d="M0-131A131,131,0,0,1,124.588-40.481,131,131,0,0,1,77,105.981a131,131,0,0,1-154,0l15.282-21.034a105,105,0,0,0,123.435,0A105,105,0,0,0,99.861-32.447,105,105,0,0,0,0-105Z" transform="translate(77 131)" fill="#0b332c"/>
+    </g>
+    <g id="Burritos" transform="translate(548 765.019)">
+      <path id="Path_57" data-name="Path 57" d="M-77,105.981A131,131,0,0,1-131,0,131,131,0,0,1-77-105.981l15.282,21.034A105,105,0,0,0-105,0,105,105,0,0,0-61.717,84.947Z" transform="translate(131 105.981)" fill="#007270"/>
+    </g>
+    <g id="Salad" transform="translate(592 717)">
+      <path id="Path_58" data-name="Path 58" d="M-77-105.981A131,131,0,0,1,0-131v26A105,105,0,0,0-61.717-84.947Z" transform="translate(87 154)" fill="#e3e9ec"/>
+    </g>
+  </g>
+</svg>
