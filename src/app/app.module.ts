@@ -17,6 +17,7 @@ import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {ToastrModule} from 'ngx-toastr';
+import {BookingService} from './shared/booking.service';
 
 
 @NgModule({
@@ -40,7 +41,7 @@ import {ToastrModule} from 'ngx-toastr';
     BrowserAnimationsModule,
     ToastrModule.forRoot()
   ],
-  providers: [UserService],
+  providers: [UserService, BookingService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

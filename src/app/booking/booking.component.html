@@ -2,16 +2,19 @@
   <div class = "info">
     <p id="firstP">Бронювання столика</p>
     <p>Заповніть форму для бронювання</p>
-    <input type="text" placeholder="Прізвище">
-    <input type="text" placeholder="Ім'я">
-    <input type="number" placeholder="Кількіcть місць">
-    <input type="datetime-local" [value]="date" [min]="date" [max]="maxDate" placeholder="Дата">
-    <input type="email" placeholder="Електронна пошта">
-    <input type="tel" placeholder="Номер телефону">
-    <input type="text" placeholder="Побажання">
-    <div class="left-btn">
-      <button (click)="openModal(success)">Надіслати</button>
-    </div>
+    <form #form1="ngForm" autocomplete="off" (submit)="onSubmit(form1)">
+      <input type="hidden" name="BookingId" [value] = "service.formData.BookingId">
+      <input type="text" name="LastName" #LastName=ngModel [(ngModel)]="service.formData.LastName" placeholder="Прізвище" required>
+      <input type="text" name="FirstName" #FirstName=ngModel [(ngModel)]="service.formData.FirstName" placeholder="Ім'я" required>
+      <input type="number" name="CountSeats" #CountSeats=ngModel [(ngModel)]="service.formData.CountSeats" placeholder="Кількіcть місць" required>
+      <input type="datetime-local" name="Date" #Date=ngModel [(ngModel)]="service.formData.Date" [value]="date" [min]="date" placeholder="Дата" required>
+      <input type="email" name="UserEmail" #UserEmail=ngModel [(ngModel)]="service.formData.UserEmail" placeholder="Електронна пошта" required>
+      <input type="tel" name="PhoneNumber" #PhoneNumber=ngModel [(ngModel)]="service.formData.PhoneNumber" placeholder="Номер телефону" required>
+      <input type="text" name="Wishes" #Wishes=ngModel [(ngModel)]="service.formData.Wishes" placeholder="Побажання" required>
+      <div class="left-btn">
+        <button type="submit" (click)="openModal(success)">Надіслати</button>
+      </div>
+    </form>
   </div>
   <div class = "image-restourant">
     <img src="../../assets/images/Image.png" alt="">

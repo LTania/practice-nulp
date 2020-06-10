@@ -1,24 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\labs 3.2\\practice\\practice-nulp\\BackendReastaurant\\BackendReastaurant.csproj": {}
+    "D:\\nulp\\course3\\Practice\\practice-nulp\\BackendReastaurant\\BackendReastaurant.csproj": {}
   },
   "projects": {
-    "D:\\labs 3.2\\practice\\practice-nulp\\BackendReastaurant\\BackendReastaurant.csproj": {
+    "D:\\nulp\\course3\\Practice\\practice-nulp\\BackendReastaurant\\BackendReastaurant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\labs 3.2\\practice\\practice-nulp\\BackendReastaurant\\BackendReastaurant.csproj",
+        "projectUniqueName": "D:\\nulp\\course3\\Practice\\practice-nulp\\BackendReastaurant\\BackendReastaurant.csproj",
         "projectName": "BackendReastaurant",
-        "projectPath": "D:\\labs 3.2\\practice\\practice-nulp\\BackendReastaurant\\BackendReastaurant.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\labs 3.2\\practice\\practice-nulp\\BackendReastaurant\\obj\\",
+        "projectPath": "D:\\nulp\\course3\\Practice\\practice-nulp\\BackendReastaurant\\BackendReastaurant.csproj",
+        "packagesPath": "C:\\Users\\yanam\\.nuget\\packages\\",
+        "outputPath": "D:\\nulp\\course3\\Practice\\practice-nulp\\BackendReastaurant\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\yanam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -69,7 +70,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[3.1.3, )"
             }
           },
           "imports": [
@@ -90,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

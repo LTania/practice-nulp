@@ -28,7 +28,9 @@ namespace BackendReastaurant
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers().AddJsonOptions(options =>{ options.JsonSerializerOptions.PropertyNameCaseInsensitive = true; options.JsonSerializerOptions.PropertyNamingPolicy = null; });
+            services.AddControllers().AddJsonOptions(options =>{ options.JsonSerializerOptions.PropertyNameCaseInsensitive = true; options.JsonSerializerOptions.PropertyNamingPolicy = null; });
             services.AddDbContext<UserContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DevConnection")));
+            services.AddDbContext<BookingContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DevConnection")));
 
             services.AddCors();
         }
