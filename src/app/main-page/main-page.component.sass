@@ -1,0 +1,94 @@
+@import "../../assets/colors"
+
+*
+  font-family: 'chaletparisnineteeneighty', sans-serif
+  font-size: 20px
+
+button
+  margin-top: 2%
+  font-size: 14px
+  padding: 14px 40px
+  border-radius: 13px
+  border: none
+  background-color: $footer-backcolor
+  color: white
+
+#last-btn
+  margin-bottom: 5%
+
+button:hover
+  background-color: $header-hover-color
+  outline: 0
+  color: white
+
+.main-container
+  margin-left: auto
+  margin-right: auto
+  margin-top: 7vh
+  width: 75%
+
+h2
+  font-size: 40px
+  color: $logo-footer-color
+  text-align: center
+  margin-bottom: 2%
+
+p
+  font-size: 24px
+  color: $logo-footer-color
+  text-align: center
+
+.chart-container
+  margin-top: 5%
+  display: flex
+  flex-direction: row
+  justify-content: space-around
+
+.info
+  margin-top: 5%
+  display: flex
+  width: 100%
+  .description
+    width: 40%
+  .images
+    width: 60%
+    img
+      width: 100%
+  h2
+    font-size: 35px
+  p
+    font-size: 20px
+.img-text
+  p
+    font-size: 20px
+    padding-top: 10px
+
+.info:nth-of-type(odd)
+  flex-direction: row
+
+.info:nth-of-type(even)
+  flex-direction: row-reverse
+
+.cont
+  margin-top: 5%
+
+.coment
+  margin-top: 2%
+  margin-left: auto
+  margin-right: auto
+  display: flex
+  width: 80%
+  img
+    width: 15vw
+  p
+    margin-top: 4vw
+
+.coment:nth-of-type(odd)
+  flex-direction: row
+
+.coment:nth-of-type(even)
+  flex-direction: row-reverse
+
+.btns
+  display: flex
+  justify-content: center

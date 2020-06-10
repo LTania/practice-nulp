@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="678.745" height="283.05" viewBox="0 0 678.745 283.05">
+  <g id="Spending_Chart" data-name="Spending Chart" transform="translate(3.458 2.5)">
+    <path id="Line_Chart" data-name="Line Chart" d="M-1.218,67.491S46.238,36.718,102.219,36.718s67.463-43.156,124.1-43.156,56.123-89.819,112.63-89.819,52.357,105.467,109,105.467,57.1-54.815,113.212-54.815S670.7,57.208,670.7,57.208" transform="translate(1.218 96.258)" fill="none" stroke="#007270" stroke-linecap="round" stroke-width="5"/>
+    <g id="Three_Toggle" data-name="Three Toggle" transform="translate(46.744 226.233)">
+      <rect id="Rectangle_1545" data-name="Rectangle 1545" width="114.412" height="54.318" rx="21" transform="translate(0 0)" fill="#e3e9ec"/>
+      <text id="_2018" data-name="2018" transform="translate(54.172 31.143)" fill="#0b332c" font-size="16" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="-15.215" y="0">2018</tspan></text>
+      <text id="_2019" data-name="2019" transform="translate(279.172 29.169)" fill="#0b332c" font-size="16" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="-15.215" y="0">2019</tspan></text>
+      <text id="_2020" data-name="2020" transform="translate(506.172 31.143)" fill="#0b332c" font-size="16" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="-16.484" y="0">2020</tspan></text>
+    </g>
+  </g>
+</svg>
