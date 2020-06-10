@@ -18,6 +18,7 @@ import {HttpClientModule} from '@angular/common/http';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {ToastrModule} from 'ngx-toastr';
 import {BookingService} from './shared/booking.service';
+import { AdminPageComponent } from './admin-page/admin-page.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import {BookingService} from './shared/booking.service';
     BookingComponent,
     EventsComponent,
     GalleryComponent,
-    ContactsComponent
+    ContactsComponent,
+    AdminPageComponent
   ],
   imports: [
     BrowserModule,

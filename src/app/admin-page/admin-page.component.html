@@ -1,0 +1,15 @@
+<div class="admin-container">
+  <p>Список бронювань</p>
+  <table class="table table-hover">
+    <tr *ngFor="let booking of service.list">
+      <td>{{booking.FirstName}}</td>
+      <td>{{booking.LastName}}</td>
+      <td>{{booking.CountSeats}}</td>
+      <td>{{booking.Date}}</td>
+      <td>{{booking.PhoneNumber}}</td>
+      <td>{{booking.UserEmail}}</td>
+      <td>{{booking.Wishes}}</td>
+      <td><i class="far fa-trash-alt fa-lg text-danger" (click)="onDelete(booking.BookingId)"></i></td>
+    </tr>
+  </table>
+</div>

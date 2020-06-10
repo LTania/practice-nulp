@@ -17,9 +17,20 @@ export class BookingService {
     Wishes: null,
   };
   readonly rootURL = 'http://localhost:49431/api';
+  list: Booking[];
   constructor(private http: HttpClient) { }
 
   postBooking(formData: Booking) {
     return  this.http.post(this.rootURL + '/Booking', formData);
+  }
+
+  refreshList() {
+    this.http.get(this.rootURL + '/Booking')
+      .toPromise()
+      .then(res => this.list = res as Booking[] );
+  }
+
+  deleteBooking(id) {
+    return this.http.delete(this.rootURL + '/Booking/' + id);
   }
 }

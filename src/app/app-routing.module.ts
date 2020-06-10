@@ -6,6 +6,7 @@ import {BookingComponent} from './booking/booking.component';
 import {EventsComponent} from './events/events.component';
 import {GalleryComponent} from './gallery/gallery.component';
 import {ContactsComponent} from './contacts/contacts.component';
+import {AdminPageComponent} from './admin-page/admin-page.component';
 
 
 const routes: Routes = [
@@ -16,7 +17,8 @@ const routes: Routes = [
   {path: 'events', component: EventsComponent},
   {path: 'gallery', component: GalleryComponent},
   {path: 'contacts', component: ContactsComponent},
-  {path: 'main-page', component: MainPageComponent}
+  {path: 'main-page', component: MainPageComponent},
+  {path: 'admin', component: AdminPageComponent}
 ];
 
 @NgModule({
