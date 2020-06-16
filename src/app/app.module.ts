@@ -19,6 +19,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {ToastrModule} from 'ngx-toastr';
 import {BookingService} from './shared/booking.service';
 import { AdminPageComponent } from './admin-page/admin-page.component';
+import { UserComponent } from './admin-page/user/user.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { AdminPageComponent } from './admin-page/admin-page.component';
     EventsComponent,
     GalleryComponent,
     ContactsComponent,
-    AdminPageComponent
+    AdminPageComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,

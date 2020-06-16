@@ -1,0 +1,9 @@
+<table class="table table-hover">
+  <tr *ngFor="let user of service.list">
+    <td>{{user.FirstName}}</td>
+    <td>{{user.LastName}}</td>
+    <td>{{user.PhoneNumber}}</td>
+    <td>{{user.UserEmail}}</td>
+    <td><i class="far fa-trash-alt fa-lg text-danger" (click)="onDelete(user.userId)"></i></td>
+  </tr>
+</table>
