@@ -1,5 +1,4 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
 import { ModalModule } from 'ngx-bootstrap/modal';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -20,6 +19,7 @@ import {ToastrModule} from 'ngx-toastr';
 import {BookingService} from './shared/booking.service';
 import { AdminPageComponent } from './admin-page/admin-page.component';
 import { UserComponent } from './admin-page/user/user.component';
+import {NgModule} from '@angular/core';
 
 
 @NgModule({

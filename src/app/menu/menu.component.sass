@@ -1,3 +1,5 @@
+@import "../../assets/colors"
+
 .menu
   width: 80%
   font-family: 'chaletparisnineteeneighty', sans-serif
@@ -8,7 +10,10 @@
   width: 100%
   display: flex
   position: relative
+  color: $logo-footer-color
 
+.container:first-of-type
+  margin-top: 80px
 .container:nth-of-type(odd)
   flex-direction: row
 
@@ -39,11 +44,11 @@
   object-fit: cover
 
 .photo.small img
-  height: 390px
+  height: 580px
   object-position: 0 65%
 
 .photo.middle img
-  height: 530px
+  height: 650px
   object-position: 0 45%
 
 .text
@@ -52,11 +57,12 @@
   margin: 30px 10% 0 10%
 
 .text h1
-  font-size: 1.5em
+  font-size: 30px
   margin: 0
-
+.text-1, .text-3
+  font-size: 22px
 .text .text-2
-  font-size: 1em
+  font-size: 22px
   margin-top: 20px
 
 .text .text-3
